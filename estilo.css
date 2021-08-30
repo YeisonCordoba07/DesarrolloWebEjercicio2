@@ -7,6 +7,7 @@ body{
 	font-family: 'open sans';
 }
 
+
 /*------------------------------|HEADER|------------------------------*/
 header{
 	display: flex;
@@ -48,7 +49,11 @@ header img{
 #div_barra_de_navegacion nav a:hover{
 	text-decoration: underline;
 }
-/*--------------------|DIV TITULOS|--------------------*/
+/*---------------------------------||---------------------------------*/
+
+
+
+/*---------------------------|DIV TITULOS|---------------------------*/
 #div_titulos_header{
 	display: flex;
 	flex-direction: column;
@@ -56,6 +61,7 @@ header img{
 	width: 100%;
 	justify-content: center;
 }
+
 #div_titulos_header h1{
 	font-size: 70px;
    	color: white;
@@ -69,6 +75,7 @@ header img{
 /*---------------------------------||---------------------------------*/
 
 
+
 /*------------------------------|TITULOS|------------------------------*/
 .div_titulos{
 	display: flex;
@@ -78,20 +85,22 @@ header img{
 	justify-content: center;
 	margin: auto;
 }
+
 .div_titulos h3{
 	font-size: 33px;
 	color: orange;
 	padding: 10px 0;
 }
+
 .div_titulos p{
 	font-size: 17px;
 	border-bottom-style: solid;
 	border-bottom-color: orange;
 	font-weight: 300;
 	margin-bottom: 50px;
-
 }
 /*---------------------------------||---------------------------------*/
+
 
 
 /*--------------------------|NUESTRO EQUIPO|--------------------------*/
@@ -103,7 +112,6 @@ header img{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	margin: auto;
 }
 
@@ -115,6 +123,7 @@ header img{
 	margin: auto;
 	justify-content: space-evenly;
 }
+
 #div_contenedor_perfiles div{
 	width: 30%;
 }
@@ -123,22 +132,23 @@ header img{
 	box-shadow: 0 0 16px rgba(0,0,0, 0.5);
 	margin-bottom: 10px;
 }
+
 .perfiles img{
 	width: 100%;
 	height: 80%;
 	object-fit: cover;
 }
+
 .perfiles p{
 	color: orange;
 	font-weight: 300;
 	padding: 10px 10px;
 }
-
 /*---------------------------------||---------------------------------*/
 
 
-/*------------------------|NUESTROS SERVICIOS|------------------------*/
 
+/*------------------------|NUESTROS SERVICIOS|------------------------*/
 #section_nuestros_servicios{
 	background-image: url("img/teclado.jpg");
 	padding: 60px 0;
@@ -146,6 +156,7 @@ header img{
 	flex-direction:  column;
 	align-items: center;
 }
+
 #contenedor_nuestros_servicios{
 	width: 90%;
 	display: flex;
@@ -153,6 +164,7 @@ header img{
 	align-items: center;
 
 }
+
 #div_contenedor_servicios{
 	display: flex;
 	flex-direction: row;
@@ -160,28 +172,32 @@ header img{
 	justify-content: space-evenly;
 	text-align: center;
 }
+
 #div_contenedor_servicios span{
 	color:  white;
 
 }
+
 #div_contenedor_servicios p{
 	color: orange;
 	font-weight:  300;
 }
+
 .div_servicios{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 30%;
 }
+
 .div_servicios img{
 	width: 64px;
 }
 /*---------------------------------||---------------------------------*/
 
 
-/*--------------------------|NUESTRO TRABAJO|--------------------------*/
 
+/*--------------------------|NUESTRO TRABAJO|--------------------------*/
 #section_nuestro_trabajo{
 	width: 90%;
 	max-width: 1000px;
@@ -191,12 +207,14 @@ header img{
 	margin: auto;
 	padding: 60px 0;
 }
+
 #div_botones{
 	display:flex;
 	flex-direction:row;
 	text-align: center;
 	margin: auto;
 }
+
 #div_botones ul{
 	display:flex;
 	flex-direction: row;
@@ -204,6 +222,7 @@ header img{
 	text-align: center;
 	margin-bottom: 30px;
 }
+
 #div_botones ul li {
 	list-style: none;
 	border-style: solid;
@@ -213,7 +232,6 @@ header img{
 	padding: 7px 7px;
 	display: inline-block;
 	margin-right: 20px;
-
 }
 
 #div_contenedor_imagenes_areas{
@@ -222,6 +240,7 @@ header img{
 	flex-wrap: wrap;
 	margin: auto;
 }
+
 .div_imagenes_areas{
 	width: 30%;
 	height: 300px;
@@ -232,13 +251,61 @@ header img{
 	margin-bottom: 30px;
 	text-align: center;
 }
+
 .div_imagenes_areas img{
 	height: 90%;
 	width: 100%;
 	object-fit: cover;
 }
+
 .div_imagenes_areas p{
 	font-weight:  300;
 	padding: 5px 0;
+}
+/*---------------------------------||---------------------------------*/
+
+
+
+/*------------------------------|FOOTER|------------------------------*/
+footer{
+	background-image: url("img/teclado.jpg");
+	padding: 60px 0;
+	display: flex;
+	flex-direction:  column;
+	align-items: center;
+}
+
+#div_footer{
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+
+	margin: auto;
+	justify-content: center;
+	text-align:center;
+}
+
+#div_logo_footer{
+	display: flex;
+	margin:auto;
+	justify-content: center;
+}
+
+#div_logo_footer img{
+	margin:auto;
+	object-fit: cover;
+width: 40%;
+}
+
+#div_redes_sociales{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#div_footer p{
+	color: orange;
+	margin: 30px 0;
+	font-weight: 300;
 }
 /*---------------------------------||---------------------------------*/
