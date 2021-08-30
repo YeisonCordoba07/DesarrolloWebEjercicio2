@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'open sans';
+}
+
+/*------------------------------|HEADER|------------------------------*/
+header{
+	display: flex;
+	height: 600px;
+	width: 100%;
+	flex-direction: column;
+
+	background: linear-gradient(to right, hsla(340, 95%, 50%, 0.452), 
+		hsla(317, 45%, 52%, 0.576)), 
+		url(img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#div_barra_de_navegacion{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
+header img{
+	height: 80px;
+}
+#div_barra_de_navegacion nav{
+	display: flex;
+	align-items: center;
+	height: 80px;
+
+}
+
+#div_barra_de_navegacion nav a{
+	color: white;
+	justify-content: right;
+	text-align: right;
+	margin-right: 17px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#div_barra_de_navegacion nav a:hover{
+	text-decoration: underline;
+}
+/*--------------------|DIV TITULOS|--------------------*/
+#div_titulos_header{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+#div_titulos_header h1{
+	font-size: 70px;
+   	color: white;
+}
+
+#div_titulos_header h2{
+	font-size: 35px;
+	color: white;
+	font-weight: 300;
+}
+/*---------------------------------||---------------------------------*/
+
+/*---------------------------------||---------------------------------*/
